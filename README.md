@@ -13,3 +13,6 @@ The result_dict list is converted to a DataFrame called final_df using the paral
 The final_df DataFrame is grouped by the "Search Engine Domain" and "Search Keyword" columns and the "Revenue" column is summed using the groupBy() and agg() methods, respectively.
 
 Finally, the final_df DataFrame is written out to a CSV file using the write() method with options to overwrite any existing file, use tab as the delimiter, and include a header row. The output file path is specified by the output_file variable.
+
+
+Note: This code is developed in AWS Gluestudio & is generic & is able to deploy without a server.
